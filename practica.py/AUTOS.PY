@@ -1,0 +1,39 @@
+autos = {'autos':{
+        1:{'marca':'Tesla',
+           'modelos':{
+               1:'Model S',
+               2:'Model E',
+               3:'Model X',
+               4:'Model Y',
+               }
+           },
+        2:{'marca':'Toyota',
+           'modelos':{
+               1:'Fortuner',
+               2:'Prado',
+               3:'Tundra',
+               4:'Corola',
+               }
+           },
+        3:{'marca':'Range Rover',
+           'modelos':{
+               1:'Evoque',
+               2:'Defender',
+               }
+           },
+        4:{'marca':'Mazda',
+           'modelos':{
+               1:'Mazda 3',
+               2:'Mazda 2',
+               3:'CX 30',
+               }
+           },
+        5:{'marca':'Audi',
+           'modelos':{
+               1:'A7',
+               2:'A5',
+               3:'A3',
+               }
+           }
+        }
+        }
