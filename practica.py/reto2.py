@@ -17,7 +17,7 @@ user_name= input(("Ingrese el nombre de usuario ==> ")) #capturamos la entrada d
 if user_name == user: #condicional para validar si el usuario es correcto de lo contrario imprimios error
     user_password=input("Ingrese la contraseña ==> ") # si el usuario es correcto pedimos la contraseña 
     if user_password == password:   #condicional para validar si la contraseña es correcta de lo contrario imprimimos error
-        print("SOLVE CAPTCHA") #validacion mediante captcha
+        print("RESUELVE CAPTCHA") #validacion mediante captcha
         captcha1=user[2:5] #extraemos los 3 ultimos valores de la variable de usuario para el captcha
         captcha2=int(user[-2])*(((((((5*3)-9)//1)*3)-10)*2)//4)//4 # operacion matematica para obtener el antepenultimo valor del usuario
         solve_true=int(captcha1)+captcha2
@@ -47,10 +47,10 @@ if user_name == user: #condicional para validar si el usuario es correcto de lo 
                     opt_favorite=int(input("Seleccione opción favorita ==> "))
                     if opt_favorite <= 5 and opt_favorite > 0:
                         riddle_1= int(input("Para confirmar por favor responda: " + 
-                        "Si me giras pierdo tres unidades por eso debes colocarme siempre de pie, la respuesta es ==> "))
+                        "Soy un numero, y no miento, que tengo forma de asiento, la respuesta es ==> "))
                         if riddle_1 == captcha2:
                             riddle_2= int(input("Para confirmar por favor responda: " + 
-                            "Me separaron de mi hermano siamés, antes era un ocho y ahora soy un… la respuesta es ==> ")) 
+                            "¿Cuantos son tres medias moscas mas mosca y media? la respuesta es ==> ")) 
                             if riddle_2 == int(user[-1]):
                                 print(str(opt_favorite)+"."+ menu[str(opt_favorite)])
                                 del (menu[str(opt_favorite)])
